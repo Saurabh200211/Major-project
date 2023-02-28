@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(1, 1, 1);
+}
+
+.container{
+    display: flex;
+    margin: 5px;
+}
+
+.head img{
+    position: relative;
+    width: 13%;
+    z-index: 1; 
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+
+.home-image{
+    background-image: url(assets/hoome.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 90vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+}
+
+.home-image .home-image-text{
+    color: white;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+
+.play-button{
+    background-color: red;
+    color: black;
+    border-radius: 4px;
+    width: 70px;
+    padding: 5px 15px 5px 10px;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.play-button img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+    position: absolute;
+}
+
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.no img{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 20px 0px 10px 10px;
+}
+
+::-webkit-scrollbar{
+    width: 100%;
+    background: transparent;
+}
+
+.no img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness();
+}
